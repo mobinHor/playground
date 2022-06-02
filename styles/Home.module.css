@@ -1,5 +1,16 @@
 .container {
+  display: flex;
+  min-height : 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 0 2rem;
+}
+.container a{
+  background-color: skyblue;
+  padding: 0.5rem;
+  border-radius: 6px;
 }
 
 .main {

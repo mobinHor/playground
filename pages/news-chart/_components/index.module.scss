@@ -1,0 +1,24 @@
+
+
+.newsIcon{
+    animation: phone-outer 3000ms infinite;
+}
+
+@keyframes phone-outer {
+    0% {
+      transform: translate3d(0, 0, 0) scale(1);
+      box-shadow: 0 0 0 0em rgba(#3498db, 0), 0em 0.05em 0.1em rgba(#000000, 0.2);
+    }
+    33.3333% {
+      transform: translate3d(0, 0, 0) scale(1.1);
+      box-shadow: 0 0 0 0em rgba(#3498db, 0.1), 0em 0.05em 0.1em rgba(#000000, 0.5);
+    }
+    66.6666% {
+      transform: translate3d(0, 0, 0) scale(1);
+      box-shadow: 0 0 0 0.5em rgba(#3498db, 0), 0em 0.05em 0.1em rgba(#000000, 0.2);
+    }
+    100% {
+      transform: translate3d(0, 0, 0) scale(1);
+      box-shadow: 0 0 0 0em rgba(#3498db, 0), 0em 0.05em 0.1em rgba(#000000, 0.2);
+    }
+}
