@@ -1,9 +1,76 @@
+@font-face {
+  font-family: "IRANYekanBlackFaNum";
+  font-style: normal;
+  font-weight: 400;
+  src: local("IRANYekanBlackFaNum"), local("IRANYekanBlackFaNum"),
+    url("../assets/iranFonts/IRANYekanBlackFaNum.ttf") format("truetype");
+  /* Modern Browsers */
+}
+@font-face {
+  font-family: "IRANYekanBoldFaNum";
+  font-style: normal;
+  font-weight: 400;
+  src: local("IRANYekanBoldFaNum"), local("IRANYekanBoldFaNum"),
+    url("../assets/iranFonts/IRANYekanBoldFaNum.ttf") format("truetype");
+  /* Modern Browsers */
+}
+@font-face {
+  font-family: "IRANYekanExtraBlackFaNum";
+  font-style: normal;
+  font-weight: 400;
+  src: local("IRANYekanExtraBlackFaNum"), local("IRANYekanExtraBlackFaNum"),
+    url("../assets/iranFonts/IRANYekanExtraBlackFaNum.ttf") format("truetype");
+  /* Modern Browsers */
+}
+@font-face {
+  font-family: "IRANYekanExtraBoldFaNum";
+  font-style: normal;
+  font-weight: 400;
+  src: local("IRANYekanExtraBoldFaNum"), local("IRANYekanExtraBoldFaNum"),
+    url("../assets/iranFonts/IRANYekanExtraBoldFaNum.ttf") format("truetype");
+  /* Modern Browsers */
+}
+@font-face {
+  font-family: "IRANYekanLightFaNum";
+  font-style: normal;
+  font-weight: 400;
+  src: local("IRANYekanLightFaNum"), local("IRANYekanLightFaNum"),
+    url("../assets/iranFonts/IRANYekanLightFaNum.ttf") format("truetype");
+  /* Modern Browsers */
+}
+@font-face {
+  font-family: "IRANYekanMediumFaNum";
+  font-style: normal;
+  font-weight: 400;
+  src: local("IRANYekanMediumFaNum"), local("IRANYekanMediumFaNum"),
+    url("../assets/iranFonts/IRANYekanMediumFaNum.ttf") format("truetype");
+  /* Modern Browsers */
+}
+@font-face {
+  font-family: "IRANYekanRegularFaNum";
+  font-style: normal;
+  font-weight: 400;
+  src: local("IRANYekanRegularFaNum"), local("IRANYekanRegularFaNum"),
+    url("../assets/iranFonts/IRANYekanRegularFaNum.ttf") format("truetype");
+  /* Modern Browsers */
+}
+@font-face {
+  font-family: "IRANYekanThinFaNum";
+  font-style: normal;
+  font-weight: 400;
+  src: local("IRANYekanThinFaNum"), local("IRANYekanThinFaNum"),
+    url("../assets/iranFonts/IRANYekanThinFaNum.ttf") format("truetype");
+  /* Modern Browsers */
+}
+
+
+
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'IRANYekanRegularFaNum';
 }
 
 a {
